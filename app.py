@@ -41,5 +41,7 @@ def delete(id):
     requests.delete(f"{BACKEND_URL}/tasks/{id}")
     return redirect('/')
 
+
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
